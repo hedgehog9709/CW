@@ -1,0 +1,40 @@
+.xleb{
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+    top: 50px;
+    left: 0;
+    margin: 0 0 90px;
+    font: 14px "Opensans-Regular";
+  & li{
+    float: left;
+    &:before{
+      content: "\203A";
+      padding: 0 18px;
+      color: #606467;
+    }
+    &:first-child:before{
+
+      content: "";
+      padding: 0;
+    }
+  }
+  & a{
+      color: #999;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+  & a.active{
+      color: #606467;
+    cursor: default;
+    // color: @defaultcolor;
+    &:hover{
+      text-decoration: none;
+    }
+  }
+}
+@media (max-width:768px){
+  .xleb{
+  }
+}

@@ -1,0 +1,125 @@
+.product{
+	margin-top: 90px;
+	margin-bottom: 30px;
+	min-height: 100%;
+	&__card-right{
+		padding:50px;
+		color: #616568;
+		font-family: 'Opensans-Regular';
+		min-height: 585px;
+		max-height: 750px;
+	}
+	&__card-left{
+		position: relative;
+		color: #616568;
+		font-family: 'Opensans-Regular';
+		max-height: 585px;
+		min-height: 585px;
+		overflow:hidden;
+		margin-bottom: 30px;	
+	}
+	&__tab1{
+		font-style: 15px;
+	}
+	&__title{
+		font-size: 32px;
+		padding-bottom: 50px;
+	}
+	&__tab-title{
+		font: 14px "Opensans-bold";
+		text-decoration: uppercase;
+		text-align: center; 
+		.radius(25px);
+	}
+	&__characteristics{
+  		opacity: .6;
+	}
+	&__sliderfor{
+		max-height: 410px;
+		min-height: 410px;
+		overflow:hidden;
+	}
+	&__slider-contentsm{
+		width: 150px;
+		background-position: center center;
+		background-size: 100%;
+		background-repeat: no-repeat;
+		margin-left: -50%;
+	}
+	&__slider-contentbig{
+		width: 125%;
+		background-position: center center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		position: absolute;
+		left: -10px;
+	}
+	&__arrows{
+		// text-align: right;
+		right: 	0px;
+		color: #999;
+		font-size: 15px;
+		margin: 10px 0;
+		z-index: 10;
+		&-l{
+			position: absolute;
+			bottom: 65px;
+			left: 35px;
+			border: 2px solid #999;
+			margin: 0 5px;
+			opacity: .7;
+			padding: 12px;
+			.radius(50%);
+			.transition(.2s all);
+			&:hover{
+				border-color: #594c82;
+				opacity: 1;
+				color: #594c82;
+			}
+		}
+		&-r{
+			position: absolute;
+			bottom: 65px;
+			right: 35px;
+			border: 2px solid #999;
+			margin: 0 5px;
+			opacity: .7;
+			padding: 12px;
+			.radius(50%);
+			.transition(.2s all);
+			&:hover{
+				border-color: #594c82;
+				opacity: 1;
+				color: #594c82;
+			}
+		}
+	}
+	
+
+}
+.bg-wh{
+	background-color: #fff;
+	.radius(6px);
+	.box-shadow(0px, 10px, 50px, 1px rgba(0, 0, 0, .1));
+}
+@media (max-width:1200px){
+	.product{
+		&__arrows{
+			display: none;
+		}	
+	}
+}
+@media (max-width:992px){
+	.product{
+		&__arrows{
+			display: block;
+		}	
+	}
+}
+@media (max-width:50px){
+	.product{
+		&__arrows{
+			display: none;
+		}	
+	}
+}

@@ -1,0 +1,56 @@
+//
+// Pagination (multiple pages)
+// --------------------------------------------------
+.pagination{
+ display: inline-block;
+ list-style: none;
+ color: #999;
+ font-family: "Opensans-Regular";
+ .radius(15px);
+ margin: 20px 0;
+
+ li{
+  float: left;
+
+  &.active, &:hover{
+   a, span{
+    background-color: #5d3092;
+    color: #fff;
+   }
+  }
+
+  &.disabled{
+   opacity:.3;
+   .transition(.3s all);
+
+   a{
+    cursor: not-allowed;
+   }
+
+   &:hover{
+    a, span{
+     background-color: #fff;
+     color: inherit;
+    }
+   }
+  }
+ }
+
+ a, span{
+  padding: 10px 16px;
+  display: inline-block;
+  background-color: #fff;
+ }
+}
+// Sizing
+// --------------------------------------------------
+
+// // Large
+// .pagination-lg {
+//   .pagination-size(@padding-large-vertical; @padding-large-horizontal; @font-size-large; @line-height-large; @border-radius-large);
+// }
+
+// // Small
+// .pagination-sm {
+//   .pagination-size(@padding-small-vertical; @padding-small-horizontal; @font-size-small; @line-height-small; @border-radius-small);
+// }

@@ -1,0 +1,74 @@
+/*
+ * UI Button
+ *  
+ * Create UI Buttons using this module.
+ *
+ * Note: To create new type of button
+ *       first extend '.btn-base'.
+ */
+
+/*
+ * Base for all buttons 
+ */
+
+.btn-base{
+	display: inline-block;
+	white-space: nowrap;
+	cursor: pointer;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+    touch-action: manipulation;
+
+	/* Prevent user from selecting the UI element */
+	.user-select(none);
+}
+
+/*
+ * Simple button
+ */
+
+.btn{
+
+	/* Extend base btn */
+	&:extend(.btn-base);
+
+	position: relative;
+	font-family: "Opensans-Regular";
+	font-size: 15px;
+	padding: 15px 100px;
+	margin: 15px 0 30px;
+	color: #fff;
+	background-color: #594c82;
+	.transition(.3s all);
+	.radius(30px);
+	&:hover{
+		opacity: .8;
+	}
+	&:hover .btn__arrow{
+		margin-top: 7px;
+	}
+	&:hover .btn__arrow-right{
+		right: 23px;
+	}
+	&__arrow{
+		position: absolute;
+		margin-top: 3px;
+	    width: 15px;
+	    right: 30px;
+	    .transition(.3s all);
+	}
+	&__arrow-right{
+		position: absolute;
+		margin-top: 3px;
+	    width: 15px;
+	    right: 30px;
+	    transform: rotate(270deg);
+	    .transition(.3s all);
+	}
+	&-white{
+		color: #0b2b6b;
+		background-color: #fff;
+		margin-top: -20px;
+	}
+	
+}

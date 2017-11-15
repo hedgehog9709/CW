@@ -1,0 +1,27 @@
+{
+  "name": "frontend_starter_kit",
+  "version": "1.0.0",
+  "description": "Basic frontend structure suitable for any project.",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp"          : "*",
+    "gulp-uglify"   : "*",
+    "gulp-concat"   : "*",
+    "gulp-rename"   : "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/Sanjar20/front-end-starter-kit-less.git"
+  },
+  "keywords": [
+    "starter_kit",
+    "frontend",
+    "less_starter_files"
+  ],
+  "author": "Sanjar Mirakhmedov (#DarkC0der)",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/Sanjar20/front-end-starter-kit-less#readme"
+}

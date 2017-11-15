@@ -1,0 +1,108 @@
+/*
+ * Main footer
+ */
+
+.footer{
+	background-color: #655a93;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 0px 0;
+	color: #fff;
+	font:16px "Opensans-Regular";
+	&__logo{
+		width: 100%;
+		padding:5px 0;
+	}
+	&__title{
+		font: 16px "Opensans-Bold";
+		padding: 30px 0;
+	}
+	&__item{
+		font:14px "Opensans-Regular";
+		padding: 10px 0;
+		list-style-type: none;
+		float: left;
+    	margin-right: 10px;
+	}
+    &__phone{
+    	float: left;
+    	&-img{
+    		float: left;
+			margin-right: 10px;
+    		width: 26px;
+    	}
+    	&-num{
+    		width: 160px;
+    	}
+    }
+	&__nav{
+		padding-top: 40px;
+		float: left;
+	}
+	&__right{
+		float: right;
+		text-align: right;
+		padding:36px 10px;
+		&-right {
+			font:16px "Opensans-Regular";
+			padding-bottom: 20px;
+			list-style-type: none;
+		}
+	}
+	&__numero{
+		width: 100px;
+		opacity: .7;
+		.transition(.3s all);
+		&:hover{
+			opacity: 1;
+		}
+	}
+	&__left{
+		text-align: left;
+		padding:36px 0;
+		&-left {
+			font:16px "Opensans-Regular";
+			padding-bottom: 20px;
+			list-style-type: none;
+		}
+	}
+	&__top{
+		padding:10px 0;
+	}
+	&__bottom{
+		border-top: 1px solid rgba(255, 255, 255, 0.3);
+	}
+	&__menu{
+		display: block;
+	}
+	&__color{
+		color: #fcd20c;
+	}
+}
+@media (max-width: 992px){
+	.footer{
+		&__menu{
+			display: none;
+		}
+		&__left{
+			display: none;
+		}
+		&__logo{
+			display: none;
+		}
+	}
+}
+@media (max-width: 768px){
+	.footer{
+		&__top-left{
+			margin-top: 20px;
+		}
+		&__item{
+			padding: 5px 0;
+		}
+		&__bottom{
+			border:none;
+		}
+	}
+}

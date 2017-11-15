@@ -1,0 +1,58 @@
+/*
+ * Visible-Hidden
+ *
+ * This module used for hiding and showing elements
+ * at breakpoints only
+ */
+
+.visible-sm-block,
+.visible-md-block,
+.visible-lg-block,
+.visible-sm-inline-block,
+.visible-md-inline-block,
+.visible-lg-inline-block{
+	display: none; 
+}
+
+@media(max-width: @screen-sm){
+	.visible-sm-block{
+		display: block; 
+	}
+
+	.visible-sm-inline-block{
+		display: block; 
+	}
+
+	.hidden-sm{
+		display: none; 
+	}
+}
+
+@media(max-width: @screen-md){
+	.visible-md-block{
+		display: block;
+	}
+
+	.visible-md-inline-block{
+		display: inline-block; 
+	}
+
+	.hidden-md{
+		display: none; 
+	}
+}
+
+@media(max-width: @screen-lg){
+	.visible-lg-block{
+		display: block;
+	}
+
+	.visible-lg-inline-block{
+		display: inline-block; 
+	}
+
+	.hidden-lg{
+		display: none; 
+	}
+}
+

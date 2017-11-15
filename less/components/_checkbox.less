@@ -1,0 +1,45 @@
+/*
+ * UI Checkbox
+ *
+ * Create UI Checkbox using this module
+ */
+
+.checkbox{
+	display: inline-block;
+	cursor: pointer;
+
+	/* Prevent user from selecting the UI element */
+	.user-select(none);
+	
+	
+	input[type="checkbox"]{
+
+		/* Hide the default checkbox */
+		display: none;
+		
+		/* Apply styles to your custom checkbox 
+		   when default checkbox is checked */
+		&:checked{
+			+ span{
+				
+			}
+		}
+	}
+	
+	/* Here goes your custom checkbox styles */
+	span{
+		// Here goes checkbox label styles ...
+
+		/* Box */
+		&:before{
+			content: '';
+			display: inline-block;
+			vertical-align: middle;
+			margin-right: 5px;
+		}
+	}
+
+	&:disabled{
+		
+	}
+}

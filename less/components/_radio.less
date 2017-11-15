@@ -1,0 +1,46 @@
+/*
+ * UI Radio button
+ *
+ * Create UI Radio button using this module
+ */
+
+.radio{
+	display: inline-block;
+	cursor: pointer;
+
+	/* Prevent user from selecting the UI element */
+	.user-select(none);
+	
+	
+	input[type="radio"]{
+
+		/* Hide the default radio button */
+		display: none;
+		
+		/* Apply styles to your custom radio button 
+		   when default radio button is checked */
+		&:checked{
+			+ span{
+				
+			}
+		}
+	}
+	
+	/* Here goes your custom radio button styles */
+	span{
+		// Here goes radio button label styles ...
+
+		/* Radio circle */
+		&:before{
+			content: '';
+			display: inline-block;
+			vertical-align: middle;
+			margin-right: 5px;
+			.radius(50%);
+		}
+	}
+
+	&:disabled{
+		
+	}
+}

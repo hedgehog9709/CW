@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "your-project-full-path"
+		}
+	],
+
+	"settings":
+	{
+		"less2css":
+		{
+			"minify": true,
+			"main_file": "your-main-less-file",
+			"outputDir": "your-compiled-css-output-dir",
+			"outputFile": "styles.min.css"
+		}
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "C:/Users/User/Desktop/Programming/Landing page/00005365"
+		}
+	],
+
+	"settings":
+	{
+		"less2css":
+		{
+			"minify": true,
+			 "main_file": "C:/Users/User/Desktop/Programming/Landing page/00005365/less/styles.less",
+			"outputDir": "C:/Users/User/Desktop/Programming/Landing page/00005365/public/assets/css",
+			"outputFile": "styles.min.css"
+		}
+	}
+}

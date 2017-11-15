@@ -1,0 +1,29 @@
+/*
+ * Title
+ *  
+ * Create a title
+ * styles shared throughout your website
+ */
+
+.title{  
+	position: relative;
+	font: 30px "Opensans-Extrabold";
+	padding: 0px 30px;
+	margin: 30px 0;
+	color: #594c82;
+	text-transform: uppercase;
+	line-height: 40px;
+	&:after{
+		position: absolute;
+	    content: ' ';
+	    display: block;
+	    width: 10px;
+	    height: 100%;
+	    background-color: #594c82;
+	    bottom: 0;
+	    left: 0;
+	    .radius(5px);
+	    .transition(.3s all);
+	}
+
+}

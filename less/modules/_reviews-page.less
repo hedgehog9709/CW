@@ -1,0 +1,143 @@
+.reviews-page{
+	background-color: #f4f4f4;
+	background-image: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: 100%;
+	padding: 90px 0 200px;
+	min-height: 100%;
+	position: relative;
+
+	&__bg{
+		background-repeat: no-repeat;
+		position: absolute;
+		bottom: 0;
+		width: 50%;
+		// height: 100%;
+	}
+
+	&__card{
+		padding: 50px;
+		min-height: 330px;
+		margin: 15px 0;
+		background-color: #fff;
+		.radius(15px);
+	}
+
+	&__content{
+		margin:0 auto;
+		max-width: 1200px;
+		height: 100%;
+		position: relative;
+	}
+
+	&__img{
+		margin: 0 0px;
+		opacity: .5;
+		width: 50px;
+        display: block;
+        float: left;
+        .radius(50%);
+	}
+
+	&__author{
+		font-size: 14px;
+		font-family: "Opensans-Regular";
+		color: #666;
+		display: block;
+		margin: 0 0 10px ;
+	}
+
+	&__company{
+		margin-bottom: 20px;
+		color: #b2b2b2;
+		font-size: 12px;
+		font-family: "Opensans-Regular";
+		width: 100%;
+	}
+
+	&__text{
+		font-size: 13px;
+		color: #666;
+		font-family: "Opensans-Regular";
+		line-height: 20px;
+		margin-top: 20px;
+	}
+	&__date{
+		position: absolute;
+		bottom: 50px;
+		right: 60px;
+		font: 13px "Opensans-Regular";
+		color:#999;
+	}
+
+	&__arrows{
+		text-align: right;
+		color: #999;
+		font-size: 15px;
+		margin: 30px 0;
+		&-l{
+			margin: 5px;
+			border: 2px solid #999;
+			opacity: .7;
+			padding: 10px;
+			.radius(50%);
+			.transition(.2s all);
+			&:hover{
+				border: 2px solid #fdd20e;
+				opacity: 1;
+				color: #fdd20e;
+			}
+		}
+		&-r{
+			margin: 5px;
+			border: 2px solid #999;
+			opacity: .7;
+			padding: 10px;
+			.radius(50%);
+			.transition(.2s all);
+			&:hover{
+				border: 2px solid #fdd20e;
+				opacity: 1;
+				color: #fdd20e;
+			}
+		}
+	}
+	&__btn{
+		width: 200px;
+		text-align: center;
+		margin-top: 15px;
+		font-family: "Opensans-Regular";
+		font-size: 15px;
+		color: #616568;
+		background-color: #fdd20e;
+		.transition(.3s all);
+		.radius(30px);
+		&:hover{
+			opacity: 0.8;
+		}
+	}
+
+	
+}
+.slider-reviews{
+	max-width: 1200px;
+	position: relative;
+	left: 0;
+	margin: 0 auto;
+}
+
+@media (max-width:992px){
+	.reviews-page{
+		&__bg{
+			width: 100%;
+		}
+	}
+}
+@media (max-width:768px){
+	.reviews-page{
+		&__from{
+			padding-left: 50px;
+		}
+	}
+}

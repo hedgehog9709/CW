@@ -1,0 +1,829 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"ba",
+				"background-size"
+			],
+			[
+				"text-",
+				"text-center"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"btn",
+				"button\tTag"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"conta",
+				"contacts"
+			],
+			[
+				"a",
+				"assets"
+			],
+			[
+				"foo",
+				"footer"
+			],
+			[
+				"font",
+				"font"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"rg",
+				"rgba(r,g,b,a)"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"fon",
+				"font"
+			],
+			[
+				"over",
+				"overflow"
+			],
+			[
+				"Opensans",
+				"Opensans-Bold"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"das",
+				"dashboard-notifications"
+			],
+			[
+				"ov",
+				"overflow-y"
+			],
+			[
+				"ovr",
+				"overflow-x"
+			],
+			[
+				"backgr",
+				"background-repeat"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 440.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"assets/",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/User/Desktop/Programming/Landing page/00005365"
+	],
+	"file_history":
+	[
+		"/C/Users/User/Desktop/Programming/Landing page/basalt/public/view.html",
+		"/C/Users/User/Desktop/Programming/Landing page/basalt/public/index.html",
+		"/C/Users/User/Desktop/Programming/Landing page/basalt/public/contacts.html",
+		"/C/Users/User/Desktop/Programming/Landing page/basalt/test.sublime-project",
+		"/C/Users/User/Desktop/Programming/Landing page/basalt/less/modules/_navbar.less",
+		"/C/Users/User/Desktop/Programming/Landing page/basalt/public/products.html",
+		"/C/Users/User/Desktop/Programming/Landing page/basalt/less/modules/_main-slider.less",
+		"/C/Users/User/Desktop/Programming/Landing page/basalt/less/components/_btn.less",
+		"/C/Users/User/Desktop/Programming/Landing page/basalt/less/modules/_footer.less",
+		"/C/Users/User/Desktop/Programming/Landing page/basalt/public/assets/images/logo-icon.svg",
+		"/C/Users/User/Desktop/Programming/Landing page/basalt/public/article.html",
+		"/C/Users/User/Desktop/Programming/Landing page/basalt/public/news.html",
+		"/C/Users/User/Desktop/Programming/Landing page/basalt/public/reviews.html",
+		"/C/Users/User/Desktop/Programming/Landing page/basalt/less/modules/_article.less",
+		"/C/Users/User/Desktop/Programming/Landing page/basalt/less/modules/_product.less",
+		"/C/Users/User/Desktop/Programming/Landing page/basalt/less/components/_tab.less",
+		"/C/Users/User/Desktop/Programming/Landing page/basalt/less/styles.less",
+		"/C/Users/User/Desktop/Programming/Landing page/basalt/less/modules/_news-page.less",
+		"/C/Users/User/Desktop/Programming/Landing page/basalt/less/components/animate.css",
+		"/C/Users/User/Desktop/Programming/Landing page/basalt/less/plugins/animate.less",
+		"/C/Users/User/Desktop/Programming/Landing page/basalt/public/assets/css/animate.css",
+		"/C/Users/User/Desktop/Programming/Landing page/ESD/public/assets/css/animate.css",
+		"/C/Users/User/Desktop/Programming/Landing page/basalt/less/modules/_reviews-page.less",
+		"/C/Users/User/Desktop/Programming/Landing page/basalt/less/modules/_why.less",
+		"/C/Users/User/Desktop/Programming/Landing page/basalt/less/modules/_news.less",
+		"/C/Users/User/Desktop/Programming/Landing page/basalt/less/modules/_our-products.less",
+		"/C/Users/User/Desktop/Programming/Landing page/basalt/less/components/_title.less",
+		"/C/Users/User/Desktop/Programming/Landing page/basalt/less/core/_variables.less",
+		"/C/Users/User/Desktop/Programming/Landing page/basalt/less/core/_global.less",
+		"/C/Users/User/Desktop/Programming/Landing page/basalt/less/modules/_contacts-page.less",
+		"/C/Users/User/Desktop/Programming/Landing page/basalt/less/components/_form-group.less",
+		"/C/Users/User/Desktop/Programming/Landing page/basalt/public/assets/images/right-arrow.svg",
+		"/C/Users/User/Desktop/Programming/Landing page/basalt/public/assets/images/comment.svg",
+		"/C/Users/User/Desktop/Programming/Landing page/basalt/public/assets/images/eye.svg",
+		"/C/Users/User/Desktop/Programming/Landing page/basalt/public/assets/images/left-arrow.svg",
+		"/C/Users/User/Desktop/Programming/Landing page/basalt/public/error.html",
+		"/C/Users/User/Desktop/Programming/Landing page/basalt/src/app.js",
+		"/C/Users/User/Desktop/Programming/Landing page/basalt/less/components/_hamburger.less",
+		"/C/Users/User/Desktop/Programming/Landing page/basalt/public/assets/images/mail.svg",
+		"/C/Users/User/Desktop/Programming/Landing page/basalt/public/assets/images/user.svg",
+		"/C/Users/User/Desktop/Programming/Landing page/basalt/less/plugins/_slick.less",
+		"/C/Users/User/Desktop/Programming/Landing page/Basalt/less/components/_tab.less",
+		"/C/Users/User/Desktop/Programming/Landing page/basalt/src/slick.js",
+		"/C/Users/User/Desktop/Programming/Landing page/Basalt/less/modules/_product.less",
+		"/C/Users/User/Desktop/Programming/Landing page/basalt/less/components/_dropdowns.less",
+		"/C/Users/User/Desktop/Programming/Landing page/basalt/public/assets/images/logo-white.svg",
+		"/C/Users/User/Desktop/Programming/Landing page/basalt/public/assets/images/magnifier.svg",
+		"/C/Users/User/Desktop/Programming/Landing page/basalt/public/assets/images/akisha.svg",
+		"/C/Users/User/Desktop/Programming/Landing page/basalt/less/components/_pagination.less",
+		"/C/Users/User/Desktop/Programming/Landing page/Basalt/less/modules/_contacts-page.less",
+		"/C/Users/User/Desktop/Programming/Landing page/basalt/public/assets/images/numero.svg",
+		"/C/Users/User/Desktop/Programming/Landing page/Basalt/less/modules/_article.less",
+		"/C/Users/User/Desktop/Programming/Landing page/basalt/less/core/_fonts.less",
+		"/C/Users/User/Desktop/Programming/Landing page/basalt/less/components/_icon.less",
+		"/C/Users/User/Desktop/Programming/Landing page/Basalt/less/modules/_news-page.less",
+		"/C/Users/User/Desktop/Programming/Landing page/Basalt/less/modules/_reviews-page.less",
+		"/C/Users/User/Desktop/Programming/Landing page/Basalt/less/components/_xleb.less",
+		"/C/Users/User/Desktop/Programming/Landing page/basalt/less/components/_socials.less",
+		"/C/Users/User/Desktop/Programming/Landing page/basalt/public/assets/images/instagram.svg",
+		"/C/Users/User/Desktop/Programming/Landing page/Basalt/less/modules/_news.less",
+		"/C/Users/User/Desktop/Programming/Landing page/Basalt/less/modules/_why.less",
+		"/C/Users/User/Desktop/Programming/Landing page/basalt/public/assets/images/chains.svg",
+		"/C/Users/User/Desktop/Programming/Landing page/Basalt/less/modules/_our-products.less",
+		"/C/Users/User/Desktop/Programming/Landing page/basalt/public/assets/images/down-arrow.svg",
+		"/C/Users/User/Desktop/Programming/Landing page/Basalt/less/modules/_main-slider.less",
+		"/C/Users/User/Desktop/Programming/Landing page/Basalt/less/components/_dropdowns.less",
+		"/C/Users/User/Desktop/Programming/Landing page/Basalt/test.sublime-project",
+		"/C/Users/User/Desktop/Programming/Landing page/Basalt/less/modules/_content.less",
+		"/C/Users/User/Desktop/Programming/Landing page/bazalt/public/index.html",
+		"/C/Users/User/Desktop/Programming/Landing page/srg/public/index.html",
+		"/C/Users/User/Desktop/Programming/Landing page/srg/public/assets/js/wow.min.js",
+		"/C/Users/acer/Desktop/SRG/less/modules/_dashboard-poslka.less",
+		"/C/Users/acer/Desktop/SRG/public/assets/js/main.js",
+		"/C/Users/acer/Desktop/SRG/public/dashboard-person-data.html",
+		"/C/Users/acer/Desktop/SRG/less/modules/_dashboard-person-data.less",
+		"/C/Users/acer/Desktop/esd-updating/public/dashboard-poslka.html",
+		"/C/Users/acer/Desktop/esd-updating/public/dashboard-balans.html",
+		"/C/Users/acer/Desktop/esd-updating/public/dashboard-calculator.html",
+		"/C/Users/acer/Desktop/esd-updating/public/index.html",
+		"/C/Users/acer/Desktop/esd-updating/less/plugins/_grid.less",
+		"/C/Users/acer/Desktop/esd-updating/less/modules/_dashboard-balans.less",
+		"/C/Users/acer/Desktop/esd-updating/public/assets/css/styles.min.css",
+		"/C/Users/acer/Desktop/esd-updating/less/styles.less",
+		"/C/Users/acer/Desktop/esd-updating/less/modules/_dashboard-person-data.less",
+		"/C/Users/acer/Desktop/esd-updating/public/dashboard-person-data.html",
+		"/C/Users/acer/Desktop/esd-updating/public/dashboard-address.html",
+		"/C/Users/acer/Desktop/esd-updating/less/modules/_dashboard-address.less",
+		"/C/Users/acer/Desktop/esd-updating/less/modules/_dashboard-calculator.less",
+		"/C/Users/acer/Desktop/esd-updating/public/dashboard-notifications.html",
+		"/C/Users/acer/Desktop/esd-updating/less/modules/_dashboard-notifications.less",
+		"/C/Users/acer/Desktop/esd-updating/less/modules/_dashboard-poslka.less",
+		"/C/Users/acer/Desktop/esd-updating/public/assets/js/main.js",
+		"/C/Users/acer/Desktop/esd-updating/less/modules/_login-reg.less",
+		"/C/Users/acer/Desktop/esd-updating/less/components/_blocks-shadow.less",
+		"/C/Users/acer/Desktop/esd-updating/less/components/_title.less",
+		"/C/Users/acer/Desktop/esd-updating/less/modules/_sidebar.less",
+		"/C/Users/acer/Desktop/esd-updating/less/modules/_navbar.less",
+		"/C/Users/acer/Desktop/esd-updating/less/modules/_header.less",
+		"/C/Users/acer/Desktop/esd-updating/public/assets/css/select2.min.css",
+		"/C/Users/acer/Desktop/esd-updating/public/assets/dashboard-poslka.html",
+		"/C/Users/acer/Desktop/esd-updating/test.sublime-project",
+		"/C/Users/acer/Desktop/front-end-starter-kit-less/test.sublime-project",
+		"/C/Users/acer/Desktop/esd-updating/less/utilities/_clearfix.less",
+		"/C/Users/acer/Desktop/esd-updating/less/utilities/spacer/_clearfix.less",
+		"/C/Users/acer/Desktop/esd-updating/public/assets/images/dashboard/truck-w.svg",
+		"/C/Users/acer/Desktop/esd-updating/public/assets/images/dashboard/mark-w.svg",
+		"/C/Users/acer/Desktop/esd-updating/public/assets/images/dashboard/human-b.svg",
+		"/C/Users/acer/Desktop/esd-updating/public/assets/images/dashboard/dollar-w.svg",
+		"/C/Users/acer/Desktop/esd-updating/public/assets/images/dashboard/bell-w.svg",
+		"/C/Users/acer/Desktop/esd-updating/public/assets/images/dashboard/arrow.svg",
+		"/C/Users/acer/Desktop/esd-updating/public/assets/images/dashboard/calc-b.svg",
+		"/C/Users/acer/Desktop/esd-updating/public/assets/images/dashboard/human-w.svg",
+		"/C/Users/acer/Desktop/esd-updating/less/core/_mixins.less",
+		"/C/Users/acer/Desktop/esd-updating/less/core/_fonts.less",
+		"/C/Users/acer/Desktop/esd-updating/less/core/_global.less",
+		"/C/Users/acer/Desktop/esd-updating/less/components/_hamburger.less",
+		"/C/Users/acer/Desktop/esd-updating/public/assets/images/dashboard/calc.svg",
+		"/C/Users/acer/Desktop/esd-updating/public/dashboard.html",
+		"/C/Users/acer/Desktop/esd-updating/public/assets/css/slick-theme.css",
+		"/C/Users/acer/Desktop/esd-updating/less/modules/_reviews.less",
+		"/C/Users/acer/Desktop/esd-updating/public/assets/css/slick.css",
+		"/C/Users/acer/Desktop/esd-updating/public/assets/images/slider-left.svg",
+		"/C/Users/acer/Desktop/esd-updating/public/assets/images/slider-right.svg",
+		"/C/Users/acer/Desktop/esd-updating/less/components/_sm-hamburger.less",
+		"/C/Users/acer/Desktop/esd-updating/less/modules/_icons-info.less",
+		"/C/Users/acer/Desktop/esd-updating/less/modules/_contacts.less",
+		"/C/Users/acer/Desktop/esd-updating/less/modules/_sm-navbar.less",
+		"/C/Users/acer/Desktop/esd-updating/less/plugins/_normalize.less"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 109.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\">\n",
+			"slideInUp",
+			"wow",
+			"jpg",
+			"post",
+			"/ass",
+			";\n",
+			"fadeInUp",
+			"30px",
+			"__row",
+			"user-settings__choose",
+			"choosePhoto",
+			"min-height",
+			"&__grid",
+			"info",
+			"nav",
+			"addaddress__row1",
+			"settings__checkbox",
+			"inner_str",
+			"poslka__cells",
+			"tab15",
+			".select2-container .select2-selection--single .select2-selection__rendered",
+			"line-heig",
+			"address",
+			"arrow b",
+			".select2-container--default .select2-selection--single",
+			"reg",
+			"ajax",
+			"checkbox",
+			"\t\t\t\t\t\t\n",
+			">\n",
+			"container",
+			"\\",
+			">\n",
+			"nav"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"choosePhoto",
+			"addaddress__row",
+			"addaddress__row\n",
+			">\n"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 52.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "test.sublime-project",
+	"replace":
+	{
+		"height": 59.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"con",
+				"public\\contacts.html"
+			],
+			[
+				"_navbar",
+				"less\\modules\\_navbar.less"
+			],
+			[
+				"pro",
+				"public\\products.html"
+			],
+			[
+				"co",
+				"public\\contacts.html"
+			],
+			[
+				"foo",
+				"less\\modules\\_footer.less"
+			],
+			[
+				"btn",
+				"less\\components\\_btn.less"
+			],
+			[
+				"main",
+				"less\\modules\\_main-slider.less"
+			],
+			[
+				"ar",
+				"less\\modules\\_article.less"
+			],
+			[
+				"logo",
+				"public\\assets\\images\\logo-icon.svg"
+			],
+			[
+				"_tab",
+				"less\\components\\_tab.less"
+			],
+			[
+				"view",
+				"public\\view.html"
+			],
+			[
+				"news-",
+				"less\\modules\\_news-page.less"
+			],
+			[
+				"new",
+				"public\\news.html"
+			],
+			[
+				"pr",
+				"public\\products.html"
+			],
+			[
+				"sty",
+				"less\\styles.less"
+			],
+			[
+				"ani",
+				"public\\assets\\css\\animate.css"
+			],
+			[
+				"anima",
+				"public\\assets\\css\\animate.css"
+			],
+			[
+				"inde",
+				"public\\index.html"
+			],
+			[
+				"_btn",
+				"less\\components\\_btn.less"
+			],
+			[
+				"wh",
+				"less\\modules\\_why.less"
+			],
+			[
+				"re",
+				"less\\modules\\_reviews-page.less"
+			],
+			[
+				"news",
+				"less\\modules\\_news.less"
+			],
+			[
+				"_news",
+				"less\\modules\\_news.less"
+			],
+			[
+				"ou",
+				"less\\modules\\_our-products.less"
+			],
+			[
+				"vi",
+				"public\\view.html"
+			],
+			[
+				"tit",
+				"less\\components\\_title.less"
+			],
+			[
+				"_na",
+				"less\\modules\\_navbar.less"
+			],
+			[
+				"va",
+				"less\\core\\_variables.less"
+			],
+			[
+				"gloa",
+				"less\\core\\_global.less"
+			],
+			[
+				"_new",
+				"less\\modules\\_news.less"
+			],
+			[
+				"_ar",
+				"less\\modules\\_article.less"
+			],
+			[
+				"_con",
+				"less\\modules\\_contacts-page.less"
+			],
+			[
+				"arr",
+				"public\\assets\\images\\right-arrow.svg"
+			],
+			[
+				"fo",
+				"less\\components\\_form-group.less"
+			],
+			[
+				"comm",
+				"public\\assets\\images\\comment.svg"
+			],
+			[
+				"eye",
+				"public\\assets\\images\\eye.svg"
+			],
+			[
+				"our",
+				"less\\modules\\_our-products.less"
+			],
+			[
+				"_ta",
+				"less\\components\\_tab.less"
+			],
+			[
+				"app",
+				"src\\app.js"
+			],
+			[
+				"_ha",
+				"less\\components\\_hamburger.less"
+			],
+			[
+				"for",
+				"less\\components\\_form-group.less"
+			],
+			[
+				"c",
+				"public\\contacts.html"
+			],
+			[
+				"form",
+				"less\\components\\_form-group.less"
+			],
+			[
+				"mai",
+				"public\\assets\\images\\mail.svg"
+			],
+			[
+				"us",
+				"public\\assets\\images\\user.svg"
+			],
+			[
+				"_ma",
+				"less\\modules\\_main-slider.less"
+			],
+			[
+				"_slic",
+				"less\\plugins\\_slick.less"
+			],
+			[
+				"dr",
+				"less\\components\\_dropdowns.less"
+			],
+			[
+				"nav",
+				"less\\modules\\_navbar.less"
+			],
+			[
+				"tite",
+				"less\\components\\_title.less"
+			],
+			[
+				"_sli",
+				"less\\plugins\\_slick.less"
+			],
+			[
+				"sli",
+				"src\\slick.js"
+			],
+			[
+				"_foo",
+				"less\\modules\\_footer.less"
+			],
+			[
+				"akis",
+				"public\\assets\\images\\akisha.svg"
+			],
+			[
+				"ma",
+				"public\\assets\\images\\magnifier.svg"
+			],
+			[
+				"_ou",
+				"less\\modules\\_our-products.less"
+			],
+			[
+				"_re",
+				"less\\modules\\_reviews-page.less"
+			],
+			[
+				"p",
+				"less\\components\\_pagination.less"
+			],
+			[
+				"user",
+				"public\\assets\\images\\user.svg"
+			],
+			[
+				"title",
+				"less\\components\\_title.less"
+			],
+			[
+				"num",
+				"public\\assets\\images\\numero.svg"
+			],
+			[
+				"_",
+				"less\\components\\_btn.less"
+			],
+			[
+				"",
+				"C:\\Users\\User\\Desktop\\Programming\\Landing page\\Basalt\\less\\modules\\_contacts-page.less"
+			],
+			[
+				"_form",
+				"less\\components\\_form-group.less"
+			],
+			[
+				"ico",
+				"less\\components\\_icon.less"
+			],
+			[
+				"fon",
+				"less\\core\\_fonts.less"
+			],
+			[
+				"news.",
+				"public\\news.html"
+			],
+			[
+				"index",
+				"public\\index.html"
+			],
+			[
+				"pagina",
+				"less\\components\\_pagination.less"
+			],
+			[
+				"pag",
+				"less\\components\\_pagination.less"
+			],
+			[
+				"_wh",
+				"less\\modules\\_why.less"
+			],
+			[
+				"_our",
+				"less\\modules\\_our-products.less"
+			],
+			[
+				"_nav",
+				"less\\modules\\_navbar.less"
+			],
+			[
+				"_so",
+				"less\\components\\_socials.less"
+			],
+			[
+				"styl",
+				"less\\styles.less"
+			],
+			[
+				"_mai",
+				"less\\modules\\_main-slider.less"
+			],
+			[
+				"so",
+				"less\\components\\_socials.less"
+			],
+			[
+				"na",
+				"less\\modules\\_navbar.less"
+			],
+			[
+				"insta",
+				"public\\assets\\images\\instagram.svg"
+			],
+			[
+				"why",
+				"less\\modules\\_why.less"
+			],
+			[
+				"cha",
+				"public\\assets\\images\\chains.svg"
+			],
+			[
+				"down",
+				"public\\assets\\images\\down-arrow.svg"
+			],
+			[
+				"font",
+				"less\\core\\_fonts.less"
+			],
+			[
+				"st",
+				"less\\styles.less"
+			],
+			[
+				"ham",
+				"less\\components\\_hamburger.less"
+			],
+			[
+				"mixi",
+				"less\\core\\_mixins.less"
+			],
+			[
+				"_var",
+				"less\\core\\_variables.less"
+			],
+			[
+				"_mix",
+				"less\\core\\_mixins.less"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 250.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

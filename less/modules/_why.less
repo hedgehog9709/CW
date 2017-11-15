@@ -1,0 +1,33 @@
+.why{	
+	margin: 20px 0;
+	
+	color: #616568;
+	font: 15px "Opensans-Regular";
+	&-bg{
+		background-color: #fff;
+		padding: 20px 50px 50px;
+		.box-shadow(0px, 10px, 50px, 1px rgba(0, 0, 0, .1));
+		.radius(6px);
+	}
+	&__reason{
+		margin: 30px 0;
+	}
+	&__title{
+		font: 16px "Opensans-Extrabold";
+		padding-bottom: 10px;
+	}
+	&__img{
+		width: 55px;
+		margin-bottom: 10px;
+	}
+}
+@media screen and (max-width:992px){
+	.why{	
+		&-bg{
+			padding: 20px;
+		}
+		&__img{
+			margin-top: 20px;
+		}
+	}
+}
